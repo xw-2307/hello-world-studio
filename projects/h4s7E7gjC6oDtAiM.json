@@ -1,0 +1,87 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "56ca0324-58dd-4864-9426-f079531d8581",
+        "text": {
+          "ops": [
+            {
+              "insert": "Hello World — Welcome Notes"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "fa9cf90f-5a08-4173-8628-5d8fdf82f0d0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Welcome to Hello World!",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "dc37406b-4b7c-46f0-b696-0da35bd7088c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "This is your very first Hello World app, powered by Taskade.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "📋"
+    }
+  }
+}
